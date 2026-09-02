@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeReport | Report Incident</title>
+    <link rel="stylesheet" href="../css/report.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <a class="sidebar-brand" href="home.html"><span class="shield">🛡</span> SafeReport</a>
+        <nav>
+            <a href="home.html"><span class="side-icon">⌂</span>Dashboard</a>
+            <a class="active" href="report.html"><span class="side-icon">➤</span>Report Incident</a>
+            <a href="myreports.html"><span class="side-icon">▤</span>My Reports</a>
+            <a href="profile.html"><span class="side-icon">◯</span>Profile</a>
+        </nav>
+        <div class="sidebar-bottom">
+            <div class="profile-mini"><div class="avatar">●</div><div><strong>John Loyd Arcay. Panla-an</strong><small>Student</small></div></div>
+            <a class="logout" href="index.html"><span>↪</span> Logout</a>
+        </div>
+    </aside>
+
+    <main>
+        <header class="header">
+            <div class="search-box"><span>⌕</span><input type="search" placeholder="Search announcements, resources..."></div>
+            <div class="header-actions"><span class="header-action">♧<span class="notification-dot">2</span></span><span class="header-action">☾</span><span class="header-avatar">●</span></div>
+        </header>
+
+        <div class="content">
+            <section class="page-title"><h1>Report an Incident</h1><p>Tell us what happened. Your report will be handled securely and confidentially.</p></section>
+
+            <section class="report-layout section">
+                <div class="report-info">
+                    <div class="report-info-icon">🛡</div>
+                    <h2>Your safety matters.</h2>
+                    <p>Provide as much information as you can. Your report will only be accessible to authorized school safety personnel.</p>
+                    <ul>
+                        <li>Give accurate incident details.</li>
+                        <li>Include the location and time if known.</li>
+                        <li>Describe the people involved.</li>
+                        <li>Your information is handled confidentially.</li>
+                    </ul>
+                </div>
+
+                <form class="report-form">
+                    <h2>Incident Information</h2>
+
+                    <label for="incident-type">Incident Type</label>
+                    <select id="incident-type" name="incident-type">
+                        <option>Select incident type</option>
+                        <option>Bullying</option>
+                        <option>Harassment</option>
+                        <option>Violence</option>
+                        <option>Threat</option>
+                        <option>Safety Concern</option>
+                        <option>Other</option>
+                    </select>
+
+                    <label for="incident-date">Date of Incident</label>
+                    <input type="date" id="incident-date" name="incident-date">
+
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" placeholder="Where did this happen?">
+
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="time">
+
+                    <label for="description">What happened?</label>
+                    <textarea id="description" name="description" placeholder="Please describe the incident..."></textarea>
+
+                    <label for="people">People Involved</label>
+                    <input type="text" id="people" name="people" placeholder="Names or descriptions, if known">
+
+                    <div class="privacy-box">
+                        <strong>🔒 Privacy</strong>
+                        <p>Your report will only be accessible to authorized school safety personnel.</p>
+                    </div>
+
+                    <label class="checkbox">
+                        <input type="checkbox" id="confirm" name="confirm">
+                        I confirm that the information provided is accurate.
+                    </label>
+
+                    <div class="form-buttons">
+                        <a class="secondary-button" style="color:#475569;border-color:#cbd5e1;" href="home.html">Cancel</a>
+                        <button class="primary-button" type="submit">Submit Report</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+</div>
+</body>
+</html>

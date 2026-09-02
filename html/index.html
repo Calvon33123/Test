@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeReport | Dashboard</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <a class="sidebar-brand" href="home.html">
+            <span class="shield">🛡</span> SafeReport
+        </a>
+
+        <nav>
+            <a class="active" href="home.html"><span class="side-icon">⌂</span>Dashboard</a>
+            <a href="report.html"><span class="side-icon">➤</span>Report Incident</a>
+            <a href="myreports.html"><span class="side-icon">▤</span>My Reports</a>
+            <a href="profile.html"><span class="side-icon">◯</span>Profile</a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <div class="profile-mini">
+                <div class="avatar">●</div>
+                <div>
+                    <strong>John Loyd Arcay. Panla-an</strong>
+                    <small>Student</small>
+                </div>
+            </div>
+            <a class="logout" href="index.html"><span>↪</span> Logout</a>
+        </div>
+    </aside>
+
+    <main>
+        <header class="header">
+            <div class="search-box">
+                <span>⌕</span>
+                <input type="search" placeholder="Search announcements, resources...">
+            </div>
+            <div class="header-actions">
+                <span class="header-action">♧<span class="notification-dot">2</span></span>
+                <span class="header-action">☾</span>
+                <span class="header-avatar">●</span>
+            </div>
+        </header>
+
+        <div class="content">
+            <section class="hero">
+                <div class="hero-text">
+                    <p class="small-title">STUDENT SAFETY PLATFORM</p>
+                    <h1>Your voice matters.</h1>
+                    <p>SafeReport provides students with a simple and secure platform for reporting bullying, violence, harassment, and other safety concerns.</p>
+                    <div class="hero-buttons">
+                        <a class="primary-button" href="report.html">Submit a Report</a>
+                        <a class="secondary-button" href="#how-it-works">▷ How It Works</a>
+                    </div>
+                </div>
+                <div class="hero-icon">🛡</div>
+            </section>
+
+            <section class="stats">
+                <div class="stat-box">
+                    <div class="stat-icon">▧</div>
+                    <div><h2>3</h2><p>Submitted Reports</p><small class="positive">+2 this week</small></div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-icon">◷</div>
+                    <div><h2>1</h2><p>Under Review</p><small>Currently being checked</small></div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-icon">✓</div>
+                    <div><h2>2</h2><p>Resolved</p><small class="positive">+1 this week</small></div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-icon">▥</div>
+                    <div><h2>85%</h2><p>Resolution Rate</p><small>This month</small></div>
+                </div>
+            </section>
+
+            <div class="dashboard-grid">
+                <div>
+                    <section class="panel section">
+                        <div class="panel-heading">
+                            <h2>Latest Announcements</h2>
+                            <a href="#">View All</a>
+                        </div>
+                        <div class="panel-body">
+                            <article class="announcement">
+                                <div class="announcement-icon">⌂</div>
+                                <div>
+                                    <span class="tag">SCHOOL UPDATE</span>
+                                    <h3>Creating a Safer School Environment</h3>
+                                    <p>Students are encouraged to report incidents involving bullying, violence, harassment, and other safety concerns.</p>
+                                    <small>August 30, 2026 · Student Safety</small>
+                                </div>
+                            </article>
+                            <article class="announcement">
+                                <div class="announcement-icon">♥</div>
+                                <div>
+                                    <span class="tag">SUPPORT</span>
+                                    <h3>You Are Not Alone</h3>
+                                    <p>The guidance office is available for students who need support, advice, or someone to talk to.</p>
+                                    <small>August 30, 2026 · Mental Health</small>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="panel section">
+                        <div class="panel-heading"><h2>Recent Activity</h2></div>
+                        <div class="panel-body activity-list">
+                            <article class="activity">
+                                <div class="activity-icon">◷</div>
+                                <div><strong>#SR-2024-003</strong><p>Harassment incident reported</p></div>
+                                <span class="status reviewing">Under Review</span>
+                                <time>2h ago</time>
+                            </article>
+                            <article class="activity">
+                                <div class="activity-icon">✓</div>
+                                <div><strong>#SR-2024-002</strong><p>Bullying incident resolved</p></div>
+                                <span class="status resolved">Resolved</span>
+                                <time>1d ago</time>
+                            </article>
+                            <article class="activity">
+                                <div class="activity-icon">▧</div>
+                                <div><strong>#SR-2024-001</strong><p>Safety concern submitted</p></div>
+                                <span class="status resolved">Resolved</span>
+                                <time>3d ago</time>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+
+                <div>
+                    <section class="panel section">
+                        <div class="panel-heading"><h2>Quick Actions</h2></div>
+                        <div class="panel-body">
+                            <a class="quick-action" href="report.html">
+                                <span class="quick-icon">➤</span>
+                                <span><strong>Report an Incident</strong><span>Submit a new safety report</span></span>
+                            </a>
+                            <a class="quick-action" href="#">
+                                <span class="quick-icon">☎</span>
+                                <span><strong>Emergency Contacts</strong><span>Important numbers and contacts</span></span>
+                            </a>
+                            <a class="quick-action" href="#">
+                                <span class="quick-icon">▤</span>
+                                <span><strong>Safety Resources</strong><span>Helpful guides and tips</span></span>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="panel tip">
+                        <div class="panel-body">
+                            <span class="tip-icon">💡</span>
+                            <h3>Safety Tip of the Day</h3>
+                            <p>Trust your instincts. If something doesn't feel right, report it.</p>
+                            <br>
+                            <a class="primary-button blue-button" href="#">Learn More</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>

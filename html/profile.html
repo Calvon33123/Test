@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeReport | Profile</title>
+    <link rel="stylesheet" href="../css/profile.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <a class="sidebar-brand" href="home.html"><span class="shield">🛡</span> SafeReport</a>
+        <nav>
+            <a href="home.html"><span class="side-icon">⌂</span>Dashboard</a>
+            <a href="report.html"><span class="side-icon">➤</span>Report Incident</a>
+            <a href="myreports.html"><span class="side-icon">▤</span>My Reports</a>
+            <a class="active" href="profile.html"><span class="side-icon">◯</span>Profile</a>
+        </nav>
+        <div class="sidebar-bottom">
+            <div class="profile-mini"><div class="avatar">●</div><div><strong>John Loyd Arcay. Panla-an</strong><small>Student</small></div></div>
+            <a class="logout" href="index.html"><span>↪</span> Logout</a>
+        </div>
+    </aside>
+
+    <main>
+        <header class="header">
+            <div class="search-box"><span>⌕</span><input type="search" placeholder="Search announcements, resources..."></div>
+            <div class="header-actions"><span class="header-action">♧<span class="notification-dot">2</span></span><span class="header-action">☾</span><span class="header-avatar">●</span></div>
+        </header>
+
+        <div class="content">
+            <section class="page-title"><h1>My Profile</h1><p>Manage your personal information and account settings.</p></section>
+
+            <section class="profile-layout section">
+                <div class="card profile-card">
+                    <div class="profile-big-avatar">●</div>
+                    <h2>John Loyd Arcay. Panla-an</h2>
+                    <p>Student · 3rd Year College</p>
+                </div>
+
+                <div class="card">
+                    <form class="profile-form">
+                        <h2>Personal Information</h2>
+                        <label>First Name<input type="text" value="John lloyd"></label>
+                        <label>Last Name<input type="text" value="panla-an"></label>
+                        <label>Student ID<input type="text" value="2024-0000" readonly></label>
+                        <label>Grade / Section<input type="text" value="3rd Year College - BSIT - A"></label>
+                        <label class="full">Email Address<input type="email" value="johntraceld@gmail.com"></label>
+                        <button class="primary-button blue-button" type="submit">Save Changes</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="security-grid section">
+                <div class="card">
+                    <h2>Account Security</h2>
+                    <p style="color:#64748b;font-size:13px;margin:7px 0 15px;">Your account is protected with secure authentication.</p>
+                    <button class="primary-button blue-button" type="button">Change Password</button>
+                </div>
+                <div class="card">
+                    <h2>Privacy</h2>
+                    <p style="color:#64748b;font-size:13px;margin:7px 0 15px;">Your reports are confidential and only visible to authorized personnel.</p>
+                    <button class="primary-button blue-button" type="button">Privacy Settings</button>
+                </div>
+            </section>
+        </div>
+    </main>
+</div>
+</body>
+</html>
